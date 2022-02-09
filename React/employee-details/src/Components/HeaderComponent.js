@@ -2,9 +2,7 @@ export default function HeaderComponent(props) {
 
     debugger;
 
-    // Pros are Contants
-
-    //props.empAge = 100;
+    // Props are read Only, Do not try to modify
 
     props.empName = "Anshul Gupta";
 
