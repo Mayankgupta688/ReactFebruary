@@ -1,0 +1,23 @@
+{
+  "name": "usingnpm",
+  "version": "2.0.0",
+  "description": "Generating Random Numbers",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayankgupta688/ReactFebruary.git"
+  },
+  "keywords": [
+    "random",
+    "number"
+  ],
+  "author": "Mayank Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayankgupta688/ReactFebruary/issues"
+  },
+  "homepage": "https://github.com/Mayankgupta688/ReactFebruary#readme",
+  "dependencies": {
+    "randomize": "^0.0.4"
+  }
+}

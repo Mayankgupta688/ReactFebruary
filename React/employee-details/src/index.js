@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 
 
-import Component from "./Components/TmerComponent";
+import Component from "./StateComponent/FormComponent";
 
 ReactDOM.render((
     <>
