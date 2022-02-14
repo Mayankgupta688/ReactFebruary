@@ -2,11 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 
-
-import Component from "./Hooks/Employees/EmployeeListComponent";
+import GrandParent from "./Hooks/UsingContext";
 
 ReactDOM.render((
     <>
-        <Component></Component>
+        <GrandParent></GrandParent>
     </>
 ), document.getElementById("root"));
