@@ -24,7 +24,7 @@ export default function EmployeeListComponent() {
             <h1>Employee List for TechnoFunnel is given below: </h1>
             {employeeList.map((employee) => {
                 return (
-                    <EmplyeeDetails {...employee} deleteEmployee={deleteEmployee}></EmplyeeDetails>
+                    <EmplyeeDetails {...employee} key={employee.id} deleteEmployee={deleteEmployee}></EmplyeeDetails>
                 )
             })}
         </div>

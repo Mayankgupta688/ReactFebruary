@@ -56,8 +56,7 @@ function GrandChildren() {
 }
 
 function GrandGrandChildren() {
-    var dataFromContext = useContext(contextData)
-    debugger;
+    var dataFromContext = useContext(contextData);
     return (
         <div>
             <h1>Counter Value {dataFromContext.counter}</h1>
